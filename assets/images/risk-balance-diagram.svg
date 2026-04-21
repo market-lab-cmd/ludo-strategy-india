@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="risk-balance diagram">
+  <rect width="1200" height="675" fill="#f7f4ee"/>
+  <rect x="80" y="90" width="1040" height="495" rx="20" fill="#ffffff" stroke="#1f2937" stroke-width="4"/>
+  <text x="600" y="170" font-size="42" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif">Risk Balance in Ludo: When to Play Safe and When to Push</text>
+  <rect x="150" y="230" width="900" height="90" rx="14" fill="#e0f2fe"/>
+  <text x="600" y="287" font-size="31" text-anchor="middle" fill="#0c4a6e" font-family="Arial, sans-serif">Read Board → Check Risk → Execute Best Move</text>
+  <rect x="150" y="350" width="900" height="90" rx="14" fill="#dcfce7"/>
+  <text x="600" y="407" font-size="31" text-anchor="middle" fill="#14532d" font-family="Arial, sans-serif">Review Key Turns → Build Patterns → Improve Stability</text>
+  <text x="600" y="520" font-size="26" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif">Educational Ludo diagram for Indian players</text>
+</svg>
