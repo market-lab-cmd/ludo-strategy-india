@@ -274,6 +274,78 @@ img {
   margin-top: 28px;
 }
 
+.intro-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.toc-panel,
+.jump-box,
+.path-step {
+  background: var(--surface-strong);
+  border: 1px solid rgba(137, 104, 72, 0.12);
+  border-radius: 20px;
+}
+
+.toc-panel,
+.jump-box {
+  padding: 20px 22px;
+}
+
+.toc-panel h2,
+.jump-box h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.toc-list,
+.jump-list,
+.path-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.toc-list li,
+.jump-list li,
+.path-list li {
+  margin-bottom: 10px;
+}
+
+.path-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.path-step {
+  padding: 22px;
+}
+
+.path-step__number {
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  align-items: center;
+  justify-content: center;
+  background: #fff7ec;
+  color: var(--accent);
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.path-step h3 {
+  margin: 0 0 10px;
+}
+
+.path-step p {
+  margin: 0 0 10px;
+  color: var(--muted);
+}
+
 .card {
   border-radius: 20px;
   padding: 22px;
@@ -340,6 +412,11 @@ img {
   }
 
   .topic-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-grid,
+  .path-grid {
     grid-template-columns: 1fr;
   }
 
